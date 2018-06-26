@@ -240,6 +240,7 @@ The JSON payloads expected by and returned from the __mtsIo__ adapter should hav
 				...
 		]
     "success": true // true|false
+    "timestamp": "2018-06-26T06:33:23.397Z"
     "error": "An error message describing the error that occurred" //Will only be present if an error occurs
 	}
 

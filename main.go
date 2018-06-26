@@ -325,6 +325,8 @@ func executeCommands(operation string, payload []byte) {
 			jsonResp["portName"] = jsonPayload["portName"]
 			jsonResp["objects"] = jsonPayload["objects"]
 		}
+		//Add a timestamp to the payload
+		jsonResp["timestamp"] = time.Now().UTC().Format(time.RFC3339)
 
 		log.Printf("[DEBUG] executeCommand - Marshalling response %#v\n", jsonResp)
 		respStr, err := json.Marshal(jsonResp)
