@@ -361,7 +361,7 @@ The following steps summarize the installation of the MultiTech C/C++ toolchain:
 In order to compile the adapter for execution within mLinux, the following steps need to be performed:
 
  1. Retrieve the adapter source code  
-    * ```git clone git@github.com:ClearBlade/mtsio-Adapter.git```
+    * ```git clone git@github.com:ClearBlade/Multitech-MTSIO-Adapter.git```
  2. Navigate to the _mtsioadapter_ directory  
     * ```cd mtsioadapter```
  3. Load the toolchain environment - If this hasn't already been done  
